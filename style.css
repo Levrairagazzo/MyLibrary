@@ -1,0 +1,27 @@
+form{
+    display: flex;
+   
+}
+
+.wrapper{
+    display:grid;
+    grid-template-columns: 5;
+
+}
+
+.form-container{
+    display: flex;
+    justify-content: center;
+    border: solid blue;
+}
+
+.wrapper > div{
+border: solid blanchedalmond;
+}
+
+
+
+.listForm{
+    display: flex;
+list-style: none;
+}
