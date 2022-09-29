@@ -16,10 +16,8 @@ function Book(title, author, pages) {
     
 }
 
-//Test Books
-let myBook = new Book("1984", "George Orwell", 99);
-let myBook2 = new Book("Animal Farm", "George Orwell", 99);
-myLibrary.push(myBook, myBook2);
+
+
 
 function validateForm() {
     let formTitle = document.forms["myForm"]["bookTitle"].value;
@@ -104,7 +102,11 @@ function displayBook(myBook){
     book.appendChild(deleteButton);
 }
 
-
+//Test Books
+const myBook = new Book("1984", "George Orwell", 99);
+const myBook2 = new Book("Animal Farm", "George Orwell", 99);
 const testBook = new Book("The Adventures of Tom Sawyer", "Mark Twain", 250);
 
 displayBook(testBook);
+displayBook(myBook); 
+displayBook(myBook2); 
